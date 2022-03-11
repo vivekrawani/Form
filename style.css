@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins:wght@400;700&display=swap');
 body{
     font-size: 1.5em;
-    color: rgb(255, 20, 92);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(167, 7, 7);
+    font-family: 'Acme', sans-serif;
     font-weight: 400;
-    background-color: rgba(0, 248, 174, 0.411);
+    height: 100%;
+    background-color: rgb(238, 192, 198);
+    background-image: linear-gradient(315deg, rgb(238, 192, 198) 0%, rgb(126, 232, 250) 74%);
+}
+h1{
+    font-weight: 700;
 }
 form{
     display: flex;
@@ -14,7 +20,13 @@ input{
     width: 35%;
     min-width: 100px;
     height: 20px;
+    background-color: rgba(240, 198, 204, 0.4);
 }
+input:hover{
+        box-shadow: 2px 2px 2px 2px #3d373a4d;
+        transform: translate(2px);
+}
+
 input[type="submit"]{
     width:60px;
 }
@@ -24,4 +36,10 @@ input[type="submit"]{
     flex-direction: column;
     align-items: center;
 
+}
+html {
+    height: 100%;
+}
+.button{
+    background-color:rgba(250, 126, 126, 0.5);
 }
